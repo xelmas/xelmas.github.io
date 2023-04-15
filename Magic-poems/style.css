@@ -1,0 +1,16 @@
+body {
+    background-color: lightpink;
+  }
+  
+  h1, h2 {
+    color: black;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    text-align: center;
+    color: black;
+    align-self: center;
+  }
+
