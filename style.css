@@ -13,3 +13,9 @@ body {
     color: white;
     align-self: center;
   }
+  a:link {
+    color: green;
+  }
+  a:visited {
+    color: gray;
+  }
