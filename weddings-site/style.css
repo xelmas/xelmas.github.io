@@ -8,6 +8,7 @@ body, html {
     background-size: cover;
     background-image: url("/weddings-site/images/example_bg.jpeg");
     min-height: 75%;
+    width: 100%;
   }
   
 .menu {
@@ -29,4 +30,8 @@ body, html {
 }
 p, a, h5 {
   font-style: normal;
+}
+.text {
+  font-size: 5vw;
+  justify-content: center;
 }
