@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hääjuhlat 2024</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="/weddings-site/style.css">
+</head>
+<body>
+
+<!-- Links on navigation bar -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">ETUSIVU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#schedule" class="w3-button w3-block w3-black">AIKATAULU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#info" class="w3-button w3-block w3-black">INFO</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with background image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">tähän saa tekstiä</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Nimi & Nimi <br> XX.09.2024</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Tai tähän tekstiä</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page default w3-sand -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- Schedule container -->
+<div class="w3-container" id="schedule">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">AIKATAULU</span></h5>
+  
+    <div class="w3-row w3-card w3-padding w3-light-grey">
+    <div class="event"> 
+      <p><span class="time">12:00</span> <span class="description">Tapahtuma 1</span></p>
+    </div>
+    <div class="event"> 
+      <p><span class="time">13:00</span> <span class="description">Tapahtuma 2</span></p>
+    </div>
+    <div class="event"> 
+      <p><span class="time">14:00</span> <span class="description">Tapahtuma 3</span></p>
+    </div>
+    <div class="event"> 
+      <p><span class="time">15:00</span> <span class="description">Tapahtuma 4</span></p>
+    </div>
+    <div class="event"> 
+      <p><span class="time">16:00</span> <span class="description">Tapahtuma 5</span></p>
+    </div>
+    <div class="event"> 
+      <p><span class="time">04:00</span> <span class="description">Tapahtuma 6</span></p>
+    </div>
+  </div>
+    <p>Tähän voi laittaa jotain tekstiä.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>Tähän voi laittaa jonkun lainauksen hääparilta.</p>
+    </div>
+    <p>Tähän alle kuva.</p>
+    <img src="/weddings-site/images/example_couple.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">MENU</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding w3-light-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Food');" id="myLink">
+        <div class="w3-col s6 tablink">Ruoka</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Juomat</div>
+      </a>
+    </div>
+
+    <div id="Food" class="w3-container menu w3-padding-48 w3-card w3-light-grey">
+      <h5>Alkuruoka</h5>
+      <p class="w3-text-grey">Jotain hyvää ja vielä parempaa</p><br>
+    
+      <h5>Pääruoka</h5>
+      <p class="w3-text-grey">Jotain lisää ja lisää</p><br>
+    
+      <h5>Jälkiruoka</h5>
+      <p class="w3-text-grey">Herkkuu</p><br>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card w3-light-grey">
+      <h5>Otsikko 1</h5>
+      <p class="w3-text-grey">Drinkki 1</p>
+      <p class="w3-text-grey">Drinkki 2</p><br>
+
+      <h5>Otsikko 2</h5>
+      <p class="w3-text-grey">Pepsi max</p>
+      <p class="w3-text-grey">Vesi</p><br>
+
+    </div>  
+    <img src="/weddings-site/images/example_drinks.jpeg" style="width:100%;max-width:1000px;margin-top:32px;">
+
+  </div>
+</div>
+
+<!-- Info Container -->
+<div class="w3-container" id="info" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">INFO</span></h5>
+    <p><strong>Sijainti osoitteessa:</strong> katutie 1 plaaplaa</p>
+    <p>tähän voi lisätä kuvan ja muuta infottavaa.</p>
+    <img src="/weddings-site/images/example_place.jpeg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">FYI!</span> Jotain tärkeetä tiedotettavaa</p>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <span class="text-muted">&copy; 2024
+    <a href="https://github.com/xelmas/" target="_blank" rel="noopener noreferrer">xelmas
+    </a>
+  </span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/weddings-site/images/example_bg.jpeg");
+    min-height: 75%;
+  }
+  
+.menu {
+    display: none;
+}
+.text-muted {
+  color: #6c757d;
+  font-size: 0.7em;
+  font-style: italic;
+}
+.event {
+  margin-bottom: 15px;
+}
+.event .time {
+  font-weight: bold;
+}
+.event .description {
+  margin-left: 10px;
+}
+p, a, h5 {
+  font-style: normal;
+}
