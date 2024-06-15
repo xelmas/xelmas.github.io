@@ -1,21 +1,16 @@
-body {
-    background-color: black;
-  }
-  
-  h1, h2 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    text-align: center;
-    color: white;
-    align-self: center;
-  }
-  a:link {
-    color: green;
-  }
-  a:visited {
-    color: gray;
-  }
+        
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+   flex: 1;
+}
+a {
+  text-decoration: none;
+}
