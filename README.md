@@ -7,4 +7,4 @@
 [Magic poems](https://xelmas.github.io/Magic-poems/index.html)
 
 ### Weddings site for displaying info, schedule and menu
-[Weddings](https://xelmas.github.io/weddings-site/index.html)
+[Weddings](https://xelmas.github.io/weddings/index.html)
