@@ -6,8 +6,8 @@ body, html {
 .bgimg {
     background-position: center;
     background-size: cover;
-    background-image: url("/weddings/images/example_bg.jpeg");
-    min-height: 75%;
+    background-image: url("/wedding/images/example_bg.jpeg");
+    min-height: 100%; /* tai 75% */
     width: 100%;
   }
   
