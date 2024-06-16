@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     font-family: "Inconsolata", sans-serif;
+    scroll-behavior: smooth;
   }
   
 .bgimg {
@@ -36,6 +37,18 @@ p, a, h5 {
 }
 .w3-button {
   -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+.section {
+  z-index: 1000;
+}
+.w3-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.w3-bar-item {
+  flex: 2;
 }
 @media (max-width: 600px) {
   .text {

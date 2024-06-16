@@ -10,23 +10,15 @@
 </head>
 <body>
 
-<!-- Links on navigation bar -->
 <div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block w3-black">ETUSIVU</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#schedule" class="w3-button w3-block w3-black">AIKATAULU</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#info" class="w3-button w3-block w3-black">INFO</a>
-    </div>
+  <div class="w3-bar w3-black w3-padding w3-medium">
+    <a href="#home" class= "w3-bar-item w3-button w3-hover-none w3-hover-text-white">ETUSIVU</a>
+    <a href="#schedule" class="w3-bar-item w3-button w3-hover-none w3-hover-text-white">AIKATAULU</a>
+    <a href="#menu" class="w3-bar-item w3-button w3-hover-none w3-hover-text-white">MENU</a>
+    <a href="#info" class="w3-bar-item w3-button w3-hover-none w3-hover-text-white">INFO</a> 
   </div>
 </div>
+
 
 <!-- Header with background image -->
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
@@ -39,9 +31,9 @@
 <div class="w3-sand w3-grayscale w3-large">
 
 <!-- Schedule container -->
-<div class="w3-container" id="schedule">
+<div class="w3-container section" id="schedule">
   <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">AIKATAULU</span></h5>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">AIKATAULU</span></h5>
   
     <div class="w3-row w3-card w3-padding w3-light-grey">
     <div class="event"> 
@@ -73,7 +65,7 @@
 </div>
 
 <!-- Menu Container -->
-<div class="w3-container" id="menu">
+<div class="w3-container section" id="menu">
   <div class="w3-content" style="max-width:700px">
  
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">MENU</span></h5>
@@ -108,17 +100,18 @@
       <p class="w3-text-grey">Vesi</p><br>
 
     </div>  
-    <img src="/wedding/images/example_drinks.jpeg" style="width:100%;max-width:1000px;margin-top:32px;">
+    <img src="/wedding/images/example_drinks.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
 
   </div>
 </div>
 
 <!-- Info Container -->
-<div class="w3-container" id="info" style="padding-bottom:32px;">
+<div class="w3-container section" id="info" style="padding-bottom:32px;">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">INFO</span></h5>
     <p><strong>Sijainti osoitteessa:</strong> katutie 1 plaaplaa</p>
-    <p>tähän voi lisätä kuvan ja muuta infottavaa.</p>
+    <p>tähän voi lisätä kuvan ja muuta infottavaa.
+    </p>
     <img src="/wedding/images/example_place.jpeg" class="w3-image" style="width:100%">
     <p><span class="w3-tag">FYI!</span> Jotain tärkeetä tiedotettavaa</p>
   </div>
