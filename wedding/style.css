@@ -34,6 +34,9 @@ p, a, h5 {
 .text {
   font-size: 90px;
 }
+.w3-button {
+  -webkit-tap-highlight-color: transparent;
+}
 @media (max-width: 600px) {
   .text {
     font-size: clamp(20px, 40px, 60px);
